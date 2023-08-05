@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05ae9e4e-0d85-4551-942c-84033dd4da3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.PuzzleBubble/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.PuzzleBubble/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.PuzzleBubble/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Zenject-ReflectionBaking.csproj.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/Signals/Zenject-Signals.csproj.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Zenject.csproj.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bubble/BlueBubble.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bubble/BlueBubble.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bubble/GreenBubble.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bubble/GreenBubble.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bubble/RedBubble.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bubble/RedBubble.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubble/StrikerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubble/StrikerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bubble/StrikerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bubble/StrikerManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShootEffect/MouseShootController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ShootEffect/MouseShootController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-    </list>
+    <list default="true" id="05ae9e4e-0d85-4551-942c-84033dd4da3c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691259168583</updated>
-      <workItem from="1691259230483" duration="5097000" />
+      <workItem from="1691259230483" duration="5386000" />
     </task>
     <servers />
   </component>
