@@ -1,6 +1,7 @@
 using Bubble;
 using Cam;
 using Effects;
+using GameSceneUi;
 using Managers;
 using ShootEffect;
 using Signals;
@@ -13,7 +14,7 @@ public class GameSceneInstaller : ScriptableObjectInstaller<GameSceneInstaller>
 {
     [SerializeField] private GameObject mainCamera;
     [SerializeField] private GameObject mouseShootView;
-    [SerializeField] private GameObject dynamicEnvironment;
+    //[SerializeField] private GameObject dynamicEnvironment;
     [SerializeField] private GameObject explosionPrefab;
     [SerializeField] private GameObject scoreUiPrefab;
     [SerializeField] private GameObject gameOverUiPrefab;
@@ -59,7 +60,13 @@ public class GameSceneInstaller : ScriptableObjectInstaller<GameSceneInstaller>
         // Container.Bind<DynamicEnvironmentView>().FromComponentInNewPrefab(_dynamicEnvironment).AsSingle();
         // Container.BindInterfacesAndSelfTo<DynamicEnvironmentController>().AsSingle();
         
-        //UI todo
+        //UI
+        Container.Bind<ScoreUiView>().FromComponentInNewPrefab(scoreUiPrefab).AsSingle(); //todo prefab
+        Container.Bind<ScoreUiModel>().AsSingle();
+        Container.BindInterfacesAndSelfTo<ScoreUiController>().AsSingle();
+
+        Container.Bind<GameOverUiView>().FromComponentInNewPrefab(gameOverUiPrefab).AsSingle(); //todo prefab
+        Container.BindInterfacesAndSelfTo<GameOverUiController>().AsSingle();
         
         // Mouse Input
         Container.Bind<MouseShootView>().FromComponentInNewPrefab(mouseShootView).AsSingle();

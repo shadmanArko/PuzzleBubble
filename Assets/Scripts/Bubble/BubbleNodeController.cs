@@ -132,6 +132,7 @@ namespace Bubble
             targetPosition.y = -12;
             await SetPositionAsync(targetPosition, true, 1f, callback, Ease.OutBounce);
         }
+        
 
         public void ClearNeighbors()
         {

@@ -44,7 +44,7 @@ namespace Managers
         
         private async UniTask InitializeAsync()
         {
-            await _bubbleGraph.InitializeAsync();
+             await _bubbleGraph.InitializeAsync();
             _strikerManager.InitializeStrikers();
         }
 

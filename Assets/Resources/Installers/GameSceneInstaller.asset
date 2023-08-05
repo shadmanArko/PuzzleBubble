@@ -14,7 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 5359187551640862571, guid: f475c9930ad22584087f41e567587f38, type: 3}
   mouseShootView: {fileID: 948926173552311183, guid: f083080bae1d68148b39a5a5bd0a84b9, type: 3}
-  dynamicEnvironment: {fileID: 0}
   explosionPrefab: {fileID: 6107005552668691628, guid: c1b023e41d8fef94597d54fa41eab285, type: 3}
-  scoreUiPrefab: {fileID: 0}
-  gameOverUiPrefab: {fileID: 0}
+  scoreUiPrefab: {fileID: 3918356059841261857, guid: 9d5ef799c45358642863931acf1e95c6, type: 3}
+  gameOverUiPrefab: {fileID: 2519841708578371406, guid: 5344fbd591993084bb9a0f02470e2c41, type: 3}

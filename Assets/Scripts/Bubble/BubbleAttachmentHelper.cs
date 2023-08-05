@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using UnityEngine;
@@ -74,7 +75,7 @@ namespace Bubble
             await UniTask.SwitchToMainThread();
             if (strikerNodeController.IsRemoved) return;
 
-            var tasks = new List<UniTask<IBubbleNodeController>>
+            var tasks = new List<Task<IBubbleNodeController>>
             {
                 MapNeighborAtDirection(strikerNodeController.Position, _topRightDirection),
                 MapNeighborAtDirection(strikerNodeController.Position, _rightDirection),
@@ -84,16 +85,16 @@ namespace Bubble
                 MapNeighborAtDirection(strikerNodeController.Position, _topLeftDirection)
             };
 
-            await UniTask.WhenAll(tasks);
+            await Task.WhenAll(tasks);
 
             // 6 neighbors in clockwise direction
             for (var i = 0; i < 6; i++)
             {
-                strikerNodeController.SetNeighbor(i, await tasks[i]);
+                strikerNodeController.SetNeighbor(i, tasks[i].Result);
             }
         }
 
-        public async UniTask<IBubbleNodeController> MapNeighborAtDirection(Vector2 origin, Vector2 direction)
+        public async Task<IBubbleNodeController> MapNeighborAtDirection(Vector2 origin, Vector2 direction)
         {
             var hit = Physics2D.Raycast(origin, direction, 1, Constants.BubbleLayerMask);
             await UniTask.DelayFrame(1);
