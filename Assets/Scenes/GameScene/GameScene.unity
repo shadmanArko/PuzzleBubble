@@ -494,7 +494,7 @@ GameObject:
   - component: {fileID: 5718289304247464106}
   - component: {fileID: 5718289304247464107}
   - component: {fileID: 5718289304247464104}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: Ceiling
   m_TagString: Ceiling
   m_Icon: {fileID: 0}
@@ -672,7 +672,7 @@ GameObject:
   - component: {fileID: 5718289304391507800}
   - component: {fileID: 5718289304391507801}
   - component: {fileID: 5718289304391507803}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: RightBoudary
   m_TagString: SideWall
   m_Icon: {fileID: 0}
@@ -742,7 +742,7 @@ GameObject:
   - component: {fileID: 5718289304774194015}
   - component: {fileID: 5718289304774194009}
   - component: {fileID: 5718289304774194014}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: LeftBoundary
   m_TagString: SideWall
   m_Icon: {fileID: 0}

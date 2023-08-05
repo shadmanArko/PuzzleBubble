@@ -45,7 +45,9 @@ namespace ShootEffect
             // on clicked
             if (Input.GetMouseButton(0))
             {
+
                 if (_collisions == null) return;
+
                 _collisions.Clear();
                 var touch = Input.mousePosition;
                 touch.z = Mathf.Abs(0.0f - _mainCamera.transform.position.z);
@@ -56,12 +58,14 @@ namespace ShootEffect
                 }
 
                 var direction = (Vector2) touch - Constants.FirstPosition;
+                
+
 
                 _shootDirection = direction;
 
                 var hit = Physics2D.Raycast(Constants.FirstPosition, direction, 1000, Constants.InputEffectsMask);
-
                 if (hit.collider == null) return;
+                
 
                 _collisions.Add(Constants.FirstPosition);
 

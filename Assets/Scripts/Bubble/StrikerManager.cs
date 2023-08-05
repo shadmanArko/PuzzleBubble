@@ -2,6 +2,7 @@
 using LevelGeneration;
 using Managers;
 using Signals;
+using UnityEngine;
 using Utils;
 using Zenject;
 
@@ -35,6 +36,7 @@ namespace Bubble
                 if(_currentStriker >= _totalStrikers) return;
                 
                 _gameStateController.CurrentState = GameState.Shooting;
+
                 _strikerControllers[_currentStriker].Strike(strikerSignal.Direction);
                 _currentStriker++;
                 UpdatePositions();

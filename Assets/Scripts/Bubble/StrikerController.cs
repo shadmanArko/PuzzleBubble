@@ -32,6 +32,8 @@ namespace Bubble
             _collisionEnterDisposable = _strikerView.CollisionEnter2D.Subscribe(other =>
             {
                 _audioController.BubbleCollide();
+                Debug.Log(Constants.InputEffectsMask.value);
+
                 if (other.collider.CompareTag(Constants.BubbleTag))
                 {
                     _strikerView.ResetCollider();
