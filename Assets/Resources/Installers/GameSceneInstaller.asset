@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a0dff70809683b4f89c5b5cba34169d, type: 3}
+  m_Name: GameSceneInstaller
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 5359187551640862571, guid: f475c9930ad22584087f41e567587f38, type: 3}
+  mouseShootView: {fileID: 948926173552311183, guid: f083080bae1d68148b39a5a5bd0a84b9, type: 3}
+  dynamicEnvironment: {fileID: 0}
+  explosionPrefab: {fileID: 6107005552668691628, guid: c1b023e41d8fef94597d54fa41eab285, type: 3}
+  scoreUiPrefab: {fileID: 0}
+  gameOverUiPrefab: {fileID: 0}
