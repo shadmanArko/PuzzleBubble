@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c811a66668917847bfbebd92166d32d, type: 3}
   m_Name: MenuSceneInstaller
   m_EditorClassIdentifier: 
-  menuSceneUiViewPrefab: {fileID: 0}
+  menuSceneUiViewPrefab: {fileID: 8822994625373548452, guid: 859f4742ad9cb454c9d5a3c3dd8c1fc9, type: 3}
